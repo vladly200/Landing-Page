@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.firstpart {
+  height: 400px;
+  width: auto;
+  background-color: #1f2937;
+  margin: 10;
+  padding: 10;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  margin-left: 150px;
+  margin-right: 300px;
+  margin-top: 10px;
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.link {
+  margin-left: 15px;
+  font-size: 18px;
+  color: #e5e7eb;
+  align-self: flex-end;
+  gap: 10px;
+}
