@@ -10,6 +10,7 @@ body {
   background-color: #1f2937;
   margin: 10;
   padding: 10;
+  font-family: "Roboto";
 }
 .header {
   display: flex;
@@ -24,15 +25,41 @@ body {
 .logo {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: 700;
 }
 .nav {
   display: flex;
   gap: 20px;
 }
 .link {
-  margin-left: 15px;
   font-size: 18px;
   color: #e5e7eb;
   align-self: flex-end;
   gap: 10px;
+}
+.part {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.part .awesome {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.part img {
+  height: 150px;
+  width: auto;
+}
+.part p {
+  font-size: 18px;
+  color: white;
+}
+.part button {
+  color: white;
+  background-color: #3882f6;
+  width: 120px;
+  height: 35px;
+  border-radius: 15px;
 }
