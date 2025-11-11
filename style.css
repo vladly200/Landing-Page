@@ -125,3 +125,35 @@ button {
   color: #1f2937;
   font-weight: 300;
 }
+.four {
+  height: 400px;
+  width: auto;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.signup {
+  height: 150px;
+  width: 1000px;
+  background-color: #3882f6;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  gap: 15px;
+}
+.signup button {
+  border-color: white;
+}
+.signup .call {
+  font-weight: 900;
+  font-size: 36px;
+  color: #f9faf8;
+}
+
+.signup p {
+  color: #f9faf8;
+  font-size: 18px;
+}
